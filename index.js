@@ -110,7 +110,7 @@ client.on("guildMemberAdd", async (member) => {
       .setStyle("LINK")
   );
 
-  WelcomeChannel.send({ embeds: [WelcomeEmbed], components: [WelcomeRow] })
+  WelcomeChannel.send({content: `${member}`, embeds: [WelcomeEmbed], components: [WelcomeRow] })
     //Delete the content after 1 minutes
     .then((Welcome) => {
       setTimeout(function () {
