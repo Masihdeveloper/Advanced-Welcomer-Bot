@@ -22,7 +22,7 @@ const client = new Client({
 });
 
 client.on("guildMemberAdd", async (member) => {
-	//Ignore the bot user
+  //Ignore the bots user
   if (member.user.bot) return;
   const WelcomeChannel = member.guild.channels.cache.get("CHANNEL_ID");
   const WelcomeInvitesLink = await WelcomeChannel.createInvite({
