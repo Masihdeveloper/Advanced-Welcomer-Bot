@@ -1,38 +1,40 @@
 //Copyright (c) Masih#0258 2023 - 2024 All Right Reserved!
 
-const { Client, Intents } = require("discord.js");
-
+const {
+  Client,
+  GatewayIntentBits,
+  EmbedBuilder,
+  ActionRowBuilder,
+  ButtonBuilder,
+  ButtonStyle,
+} = require("discord.js");
 const client = new Client({
-  partials: ["MESSAGE", "CHANNEL", "REACTION", "USER", "GUILD_MEMBER"],
   intents: [
-    Intents.FLAGS.GUILDS,
-    Intents.FLAGS.GUILD_MESSAGES,
-    Intents.FLAGS.GUILD_MEMBERS,
-    Intents.FLAGS.GUILD_MESSAGE_REACTIONS,
-    Intents.FLAGS.GUILD_VOICE_STATES,
-    Intents.FLAGS.GUILD_PRESENCES,
-    Intents.FLAGS.DIRECT_MESSAGES,
+    GatewayIntentBits.Guilds,
+    GatewayIntentBits.GuildMessages,
+    GatewayIntentBits.GuildMembers,
+    GatewayIntentBits.GuildPresences,
+    GatewayIntentBits.GuildEmojisAndStickers,
+    GatewayIntentBits.DirectMessages,
+    GatewayIntentBits.MessageContent,
+    GatewayIntentBits.GuildMessageTyping,
   ],
 });
 
 client.on("guildMemberAdd", async (member) => {
-  const {
-    MessageEmbed,
-    MessageActionRow,
-    MessageButton,
-  } = require("discord.js");
-
+	//Ignore the bot user
   if (member.user.bot) return;
-  const Guild = client.guilds.cache.get("GUILD_ID");
   const WelcomeChannel = member.guild.channels.cache.get("CHANNEL_ID");
   const WelcomeInvitesLink = await WelcomeChannel.createInvite({
     maxAge: 10 * 60 * 1000,
     maxUses: 100,
   });
   //DM Welcomer
-  const WelcomeDMEmbed = new MessageEmbed()
+  const WelcomeDMEmbed = new EmbedBuilder()
     .setTitle(
-      `Dear ${member.user.tag} Welcome to the **${member.guild.name}** [${member.guild.memberCount}]`
+      `Dear ${member.user.tag} Welcome to the **${
+        member.guild.name
+      }** [${member.guild.memberCount.toLocaleString()}]`
     )
     .setURL("https://masihdev.tk/")
     .setDescription(
@@ -41,7 +43,7 @@ client.on("guildMemberAdd", async (member) => {
     .setThumbnail(
       `${member.guild.iconURL({ dynamic: true, format: "png", size: 4096 })}`
     )
-    .setColor(`${Guild.me.displayHexColor}`)
+    .setColor(`${member.guild.members.me.displayHexColor}`)
     .setFooter({
       text: `${member.guild.name}`,
       iconURL: member.guild.iconURL({
@@ -52,27 +54,33 @@ client.on("guildMemberAdd", async (member) => {
     })
     .setTimestamp();
 
-  const WelcomeDMRow = new MessageActionRow().addComponents(
-    new MessageButton()
+  if (member.guild.bannerURL()) {
+    WelcomeDMEmbed.setImage(
+      member.guild.bannerURL({ dynamic: true, size: 4096, format: "png" })
+    );
+  }
+
+  const WelcomeDMRow = new ActionRowBuilder().addComponents(
+    new ButtonBuilder()
       .setLabel("Channel1")
       .setEmoji("988331472614215680")
-      .setURL("https://discord.gg/6hGgxxZBVP")
-      .setStyle("LINK"),
-    new MessageButton()
+      .setURL("Channel Invite URL")
+      .setStyle(ButtonStyle.Link),
+    new ButtonBuilder()
       .setLabel("Channel2")
       .setEmoji("988331067062767627")
-      .setURL(`https://discord.gg/MZxEQqkZZm`)
-      .setStyle("LINK"),
-    new MessageButton()
+      .setURL(`Channel Invite URL`)
+      .setStyle(ButtonStyle.Link),
+    new ButtonBuilder()
       .setLabel("Channel3")
       .setEmoji("984238479493984275")
-      .setURL("https://discord.gg/95tbBpQSBr")
-      .setStyle("LINK"),
-    new MessageButton()
+      .setURL("Channel Invite URL")
+      .setStyle(ButtonStyle.Link),
+    new ButtonBuilder()
       .setLabel("Channel4")
       .setEmoji("953427168392790056")
-      .setURL("https://discord.gg/hME7HRUn2u")
-      .setStyle("LINK")
+      .setURL("Channel Invite URL")
+      .setStyle(ButtonStyle.Link)
   );
 
   member.send({
@@ -81,17 +89,19 @@ client.on("guildMemberAdd", async (member) => {
     components: [WelcomeDMRow],
   });
   //Welcome in the Specific channel
-  const WelcomeEmbed = new MessageEmbed()
+  const WelcomeEmbed = new EmbedBuilder()
     .setAuthor({
-      name: `Hello ${member.user.tag} Welcome to the ${member.guild.name} [${member.guild.memberCount}]`,
-      iconURL: `${member.user.avatarURL({
+      name: `Hello ${member.user.tag} Welcome to the ${
+        member.guild.name
+      } [${member.guild.memberCount.toLocaleString()}]`,
+      iconURL: `${member.user.displayAvatarURL({
         dynamic: true,
         size: 4096,
         format: "png",
       })}`,
     })
 
-    .setColor(`${Guild.me.displayHexColor}`)
+    .setColor(`${member.guild.members.me.displayHexColor}`)
     .setFooter({
       text: `ID: ${member.user.id}`,
       iconURL: member.guild.iconURL({
@@ -102,15 +112,19 @@ client.on("guildMemberAdd", async (member) => {
     })
     .setTimestamp();
 
-  const WelcomeRow = new MessageActionRow().addComponents(
-    new MessageButton()
+  const WelcomeRow = new ActionRowBuilder().addComponents(
+    new ButtonBuilder()
       .setLabel("Channel1")
       .setEmoji("988331472614215680")
-      .setURL("https://discord.gg/6hGgxxZBVP")
-      .setStyle("LINK")
+      .setURL("Channel Invite URL")
+      .setStyle(ButtonStyle.Link)
   );
 
-  WelcomeChannel.send({content: `${member}`, embeds: [WelcomeEmbed], components: [WelcomeRow] })
+  WelcomeChannel.send({
+    content: `${member}`,
+    embeds: [WelcomeEmbed],
+    components: [WelcomeRow],
+  })
     //Delete the content after 1 minutes
     .then((Welcome) => {
       setTimeout(function () {
