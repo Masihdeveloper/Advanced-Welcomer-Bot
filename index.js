@@ -31,6 +31,7 @@ client.on("guildMemberAdd", async (member) => {
   //Ignore the bots user
   if (member.user.bot) return;
   const WelcomeChannel = member.guild.channels.cache.get("CHANNEL_ID");
+  const JoinRole = "ROLE_ID"
   const WelcomeInvitesLink = await WelcomeChannel.createInvite({
     maxAge: 10 * 60 * 1000,
     maxUses: 100,
@@ -137,6 +138,7 @@ client.on("guildMemberAdd", async (member) => {
         Welcome.delete();
       }, 60000);
     });
+  member.roles.add(JoinRole)
 });
 
 client.on("ready", async () => {
