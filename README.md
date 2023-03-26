@@ -1,4 +1,4 @@
-Don't forget to fill `CHANNEL_ID`, `ROLE_ID` and `BOT_TOKEN` by your information in the 33rd and 34th line
+Don't forget to fill `botToken`, `welcomeChannelId` and `welcomeRoleId` by your information in the config.json file
 
 before run use `npm install` for install all requirement package!
 
