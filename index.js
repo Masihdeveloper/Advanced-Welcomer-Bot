@@ -134,7 +134,7 @@ client.on("guildMemberAdd", async (member) => {
         Welcome.delete();
       }, 60000);
     });
-  member.roles.add(config.joinRoleId)
+  member.roles.add(config.welcomeRoleId)
 });
 
 client.on("ready", async () => {
