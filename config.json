@@ -1,5 +1,5 @@
 {
   "botToken": "",
   "welcomeChannelId": "",
-  "joinRoleId": ""
+  "welcomeRoleId": ""
 }
