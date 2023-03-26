@@ -14,16 +14,13 @@ const {
   ButtonBuilder,
   ButtonStyle,
 } = require("discord.js");
+const config = require("./config.json");
 const client = new Client({
   intents: [
     GatewayIntentBits.Guilds,
     GatewayIntentBits.GuildMessages,
     GatewayIntentBits.GuildMembers,
-    GatewayIntentBits.GuildPresences,
-    GatewayIntentBits.GuildEmojisAndStickers,
-    GatewayIntentBits.DirectMessages,
     GatewayIntentBits.MessageContent,
-    GatewayIntentBits.GuildMessageTyping,
   ],
 });
 
