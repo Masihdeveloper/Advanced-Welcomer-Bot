@@ -27,8 +27,7 @@ const client = new Client({
 client.on("guildMemberAdd", async (member) => {
   //Ignore the bots user
   if (member.user.bot) return;
-  const WelcomeChannel = member.guild.channels.cache.get("CHANNEL_ID");
-  const JoinRole = "ROLE_ID"
+  const WelcomeChannel = member.guild.channels.cache.get(config.welcomeChannelId);
   const WelcomeInvitesLink = await WelcomeChannel.createInvite({
     maxAge: 10 * 60 * 1000,
     maxUses: 100,
@@ -135,7 +134,7 @@ client.on("guildMemberAdd", async (member) => {
         Welcome.delete();
       }, 60000);
     });
-  member.roles.add(JoinRole)
+  member.roles.add(config.joinRoleId)
 });
 
 client.on("ready", async () => {
@@ -146,4 +145,4 @@ client.on("ready", async () => {
   console.log(`${client.user.username} is ready!`);
 });
 
-client.login("BOT_TOKEN");
+client.login(config.botToken);
