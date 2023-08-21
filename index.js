@@ -1,8 +1,8 @@
 /* 
 Advanced Welcomer Discord Bot in Discord.js V14
-Hope you Enjoy, Made with 💜 by Masih#0258
-Github: https://github.com/Masihdev1 | Don't forget to ⭐
-Website: https://masihdev.tk/
+Hope you Enjoy, Made with 🤍 by Masih#0258
+Github: https://github.com/Masihdeveloper | Don't forget to ⭐
+Website: https://masihdev.ir/
 Copyright Masih 2024 All Right Reserved!
 */
 
