@@ -1,5 +1,34 @@
 {
   "botToken": "YOUR BOT TOKEN",
-  "welcomeChannelId": "YOUR WELCOME CHANNEL ID",
-  "welcomeRoleId": "YOUR WELCOME ROLE ID"
+  "botStatus": "YOUR BOT STATUS, Must be replaced to online, idle, dnd or invisible",
+  "botActivityName": "YOUR BOT ACTIVITY NAME",
+  "memberCountChannelId": "ENTER THE CHANNEL ID FOR SHOW YOUR SERVER MEMBER COUNT",
+  "welcomeChannelId": "YOUR WELCOME CHANNEL ID (Only Numbers)",
+  "welcomeLogChannelId": "YOUR WELCOME LOG CHANNEL ID (Only Numbers)",
+  "welcomeRoleId": "YOUR WELCOMER ROLE ID (Only Numbers)",
+  "welcomeBotRoleId": "YOUR WELCOMER BOT ROLE ID (Only Numbers)",
+  "welcomeChannelLinkButton": {
+    "label": "YOUR WELCOMER BUTTON LABEL (Less than 80 characters)",
+    "url": "YOUR WELCOMER BUTTON URL (Must be only URL and contain: http or https)"
+  },
+  "pingOnJoinChannelId": "YOUR PING ON JOIN CHANNEL ID (Mention your member to this channel while join)",
+  "dmWelcomerDescription": "YOUR DM WELCOMER EMBED DESCRIPTION (Less than 4096 characters)",
+  "dmWelcomerLinkButtons": {
+    "first": {
+      "label": "FIRST DM WELCOMER BUTTON LABEL (Less than 80 characters)",
+      "url": "FIRST DM WELCOMER BUTTON URL (Must be only URL and contain: http or https)"
+    },
+    "second": {
+      "label": "SECOND DM WELCOMER BUTTON LABEL (Less than 80 characters)",
+      "url": "SECOND DM WELCOMER BUTTON URL (Must be only URL and contain: http or https)"
+    },
+    "third": {
+      "label": "THIRD DM WELCOMER BUTTON LABEL (Less than 80 characters)",
+      "url": "THIRD DM WELCOMER BUTTON URL (Must be only URL and contain: http or https)"
+    },
+    "fourth": {
+      "label": "FOURTH DM WELCOMER BUTTON LABEL (Less than 80 characters)",
+      "url": "FOURTH DM WELCOMER BUTTON URL (Must be only URL and contain: http or https)"
+    }
+  }
 }
