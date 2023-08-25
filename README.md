@@ -7,7 +7,7 @@ npm init -y
 ```
 for create package.json file (If you use replit you easily can skip this step)
 # Step 2
-Only need to Install `discord.js` by enter this command on your console
+Only need to Install `discord.js` library by enter this command on your console
 ```
 npm discord.js
 ```
