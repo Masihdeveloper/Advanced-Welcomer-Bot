@@ -54,6 +54,8 @@ Welcomer Log System
 
 ![Log](https://cdn.discordapp.com/attachments/970232277437124659/1144625567883350189/Screenshot_2023-08-21_222734.png)
 #
+Ping On Join System
+
 Don't forget to star ⭐
 
 Made with 🤍 by [Masih#0258](https://discord.com/users/901765485341859911
