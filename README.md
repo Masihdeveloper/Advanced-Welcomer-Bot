@@ -18,7 +18,7 @@ For exmaple all of the `"url"` only accepts links that include `https` and `http
 # Step 4
 If you are sure that all the information is filled and confirmed, run your file by enter this command in your console:
 ```
-npm index.js
+node index.js
 ```
 so now that your advanced welcomer discord bot will go online and start his exclusive working ...
 <hr>
