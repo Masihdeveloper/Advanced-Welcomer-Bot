@@ -148,9 +148,9 @@ client.on("guildMemberAdd", async (member) => {
 
     const welcomeRow = new ActionRowBuilder().addComponents(
       new ButtonBuilder()
-        .setLabel(config.welcomeChannelLinkButton.label)
+        .setLabel(config.welcomeChannelLinkButton.label || "No Data")
         .setEmoji("988331472614215680")
-        .setURL(config.welcomeChannelLinkButton.url)
+        .setURL(config.welcomeChannelLinkButton.url || "https://masihdev.ir")
         .setStyle(ButtonStyle.Link)
     );
     // Send the Embed Message to your welcome channel
@@ -237,6 +237,7 @@ client.on("guildMemberAdd", async (member) => {
   const pingOnJoinChannel = client.channels.cache.get(
     config.pingOnJoinChannelId
   );
+  // If the ping on join channel is not found, all of the remaining action are return
   if (!pingOnJoinChannel) {
     return console.log(
       "I was unable to find your ping on join channel, make sure to set the 'pingOnChannelId' in the config.json file"
