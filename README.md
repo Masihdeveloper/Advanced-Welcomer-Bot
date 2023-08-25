@@ -25,7 +25,7 @@ so now that your advanced welcomer discord bot will go online and start his excl
 
 # Features DM Welcomer (Can fully customized)
 
-![DM Welcomer](https://cdn.discordapp.com/attachments/970232277437124659/1144625457577345074/Screenshot_2023-08-21_222425.png) 
+![DM Welcomer](https://cdn.discordapp.com/attachments/970232277437124659/1144628454537572402/Screenshot_2023-08-25_171518.png) 
 
 
 Welcoming to the NEW members in the specific channel and delete it after 90s
