@@ -104,12 +104,21 @@ client.on("guildMemberAdd", async (member) => {
         )
         .setStyle(ButtonStyle.Link)
     );
+    // 1 Disabled Red Button in another row for show member username
+    const welcomeDisableDMRow = new ActionRowBuilder().addComponents(
+      new ButtonBuilder()
+        .setCustomId("Disabled Button")
+        .setLabel(member.user.username)
+        .setEmoji("🎉")
+        .setStyle(ButtonStyle.Danger) // You can Danger to: Primary (Blue), Success (Green) or Secondary (White)
+        .setDisabled(true)
+    );
     // Send the Information to the member's DM
     member
       .send({
         content: `** ${welcomeInvitesLink} **`,
         embeds: [welcomeDMEmbed],
-        components: [welcomeDMRow],
+        components: [welcomeDMRow, welcomeDisableDMRow],
       })
       .then(() => {})
       .catch(() => {
