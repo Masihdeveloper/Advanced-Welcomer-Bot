@@ -27,7 +27,7 @@ so now that your advanced welcomer discord bot will go online and start his excl
 
 ![DM Welcomer](https://cdn.discordapp.com/attachments/970232277437124659/1144628454537572402/Screenshot_2023-08-25_171518.png) 
 
-
+#
 Welcoming to the NEW members in the specific channel and delete it after 90s
 
 ![Welcoming to the NEW members in the specific channel](https://cdn.discordapp.com/attachments/970232277437124659/1144625457917071381/Screenshot_2023-08-21_222856.png) 
