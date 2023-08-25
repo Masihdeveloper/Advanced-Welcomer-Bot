@@ -35,9 +35,11 @@ Welcoming to the NEW members in the specific channel and delete it after 90s
 Add a Diffrent Role to Humans and Bots
 
 Human:
+
 ![Humans](https://cdn.discordapp.com/attachments/970232277437124659/1144625458466537492/Screenshot_2023-08-21_222559.png)
 
 Bots
+
 ![Bots](https://cdn.discordapp.com/attachments/970232277437124659/1144625458688823446/Screenshot_2023-08-21_224700.png)
 
 Set Your Server Member count to Voice Channel (Refresh every 15 minutes)
