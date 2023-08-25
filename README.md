@@ -39,19 +39,19 @@ Humans:
 
 ![Humans](https://cdn.discordapp.com/attachments/970232277437124659/1144625458466537492/Screenshot_2023-08-21_222559.png)
 
-
+#
 Bots
 
 ![Bots](https://cdn.discordapp.com/attachments/970232277437124659/1144625458688823446/Screenshot_2023-08-21_224700.png)
-
+#
 Set Your Server Member count to Voice Channel (Refresh every 15 minutes)
 
 ![Sever Stats](https://cdn.discordapp.com/attachments/970232277437124659/1144625458193903757/Screenshot_2023-08-21_223230.png)
-
+#
 Welcomer Log System
 
 ![Log](https://cdn.discordapp.com/attachments/970232277437124659/1144625567883350189/Screenshot_2023-08-21_222734.png)
-
+#
 Don't forget to star ⭐
 Made with 🤍 by [Masih#0258](https://discord.com/users/901765485341859911)
 Also you can check our [Previous Repository](https://github.com/Masihdeveloper/Creating-Discord-Bot/edit/main/README.md) for get more basic information on how get started!
