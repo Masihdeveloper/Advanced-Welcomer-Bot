@@ -33,7 +33,7 @@ Welcoming to the NEW members in the specific channel and delete it after 90s
 
 ![Welcoming to the NEW members in the specific channel](https://cdn.discordapp.com/attachments/970232277437124659/1144625457917071381/Screenshot_2023-08-21_222856.png) 
 #
-Add a Different Role to Humans and Bots
+Add a Different Role to the Humans and Bots
 
 
 **Humans:**
