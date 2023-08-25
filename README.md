@@ -12,7 +12,7 @@ Only need to Install `discord.js` library by enter this command on your console
 npm discord.js
 ```
 # Step 3
-Make sure to Fill out the `config.json` by your infomarion and according to the information that stated in their description
+Make sure to Fill out the `config.json` file by your infomarion and according to the information that stated in their description
 For exmaple all of the `"url"`only accepts links that include `https` and `http`
 
 # Step 4
