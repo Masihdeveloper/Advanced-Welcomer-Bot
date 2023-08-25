@@ -1,3 +1,5 @@
+# Advanced Discord Welcomer Bot <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
+
 Don't forget to fill `botToken`, `welcomeChannelId` and `welcomeRoleId` by your information in the config.json file
 
 before run use `npm install` for install all requirement package!
