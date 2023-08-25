@@ -27,7 +27,7 @@ so now that your advanced welcomer discord bot will go online and start his excl
 
 DM Welcomer with 4 link buttons and create a server invite link
 
-![DM Welcomer](https://cdn.discordapp.com/attachments/970232277437124659/1144628454537572402/Screenshot_2023-08-25_171518.png) 
+![DM Welcomer](https://cdn.discordapp.com/attachments/970232277437124659/1144637312928579725/Screenshot_2023-08-25_175031.png) 
 
 #
 Welcoming to the NEW members in the specific channel and delete it after 90s
