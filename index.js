@@ -110,7 +110,7 @@ client.on("guildMemberAdd", async (member) => {
         .setCustomId("Disabled Button")
         .setLabel(member.user.username)
         .setEmoji("🎉")
-        .setStyle(ButtonStyle.Danger) // You can Danger to: Primary (Blue), Success (Green) or Secondary (White)
+        .setStyle(ButtonStyle.Danger) // You can edit Danger to: Primary (Blue), Success (Green) or Secondary (Grey)
         .setDisabled(true)
     );
     // Send the Information to the member's DM
