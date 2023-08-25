@@ -57,7 +57,7 @@ Welcomer Log System
 with Ping on Join (Mention your member to a text channel when joined and delete it after 3 seconds)
 # 
 
-Don't forget to star ⭐
+Please Don't forget to star ⭐
 
 Made with 🤍 by [Masih#0258](https://discord.com/users/901765485341859911
 )
