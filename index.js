@@ -1,5 +1,5 @@
 /* 
-Fully Customzied Advanced Welcomer Discord Bot in Discord.js V14
+Fully Customized Advanced Welcomer Discord Bot in Discord.js V14
 Hope you Enjoy, Made with 🤍 by Masih#0258
 Github: https://github.com/Masihdeveloper | Please Don't forget to ⭐
 Website: https://masihdev.ir/
@@ -110,7 +110,7 @@ client.on("guildMemberAdd", async (member) => {
         .setCustomId("Disabled Button")
         .setLabel(member.user.username)
         .setEmoji("🎉")
-        .setStyle(ButtonStyle.Danger) // You can edit Danger to: Primary (Blue), Success (Green) or Secondary (Grey)
+        .setStyle(ButtonStyle.Danger) // You can Danger to: Primary (Blue), Success (Green) or Secondary (White)
         .setDisabled(true)
     );
     // Send the Information to the member's DM
@@ -262,7 +262,7 @@ client.on("ready", async () => {
   const memberCountVoiceChannel = client.channels.cache.get(
     config.memberCountChannelId
   );
-  // Set status and activty for the logged in client
+  // Set status and activity for the logged in client
   client.user.setPresence({
     // You can go for: online, idle, dnd and invisible in the config.json file
     status: config.botStatus || "online",
@@ -277,7 +277,7 @@ client.on("ready", async () => {
   const ms = 900000;
   if (ms < 360000) {
     console.log(
-      "Be careful, according to the Discord API TOS, the minimum time required to edit a channel is 6 every 6 mintues, so please make your time more than 360,000 miliseconds."
+      "Be careful, according to the Discord API TOS, the minimum time required to edit a channel is 6 every 6 minutes, so please make your time more than 360,000 milliseconds."
     );
   }
   setInterval(() => {
@@ -294,7 +294,7 @@ client.on("ready", async () => {
 client.login(config.botToken);
 
 /*
-❓ Don't forget to filled out config.json file by your infomartion and check the README.md file
-All of the methods have been carfully tested
+❓ Don't forget to filled out config.json file by your information and check the README.md file
+All of the methods have been carefully tested
 But if you have any issues while using this source, feel free to contact me thorough my social media which is @Masihdeveloper
 */
