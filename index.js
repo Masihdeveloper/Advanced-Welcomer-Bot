@@ -277,7 +277,7 @@ client.on("ready", async () => {
   const ms = 900000;
   if (ms < 360000) {
     console.log(
-      "Be careful, according to the Discord API TOS, the minimum time required to edit a channel is 6 every 6 minutes, so please make your time more than 360,000 milliseconds."
+      "Be careful, according to the Discord API TOS, the minimum time required to edit a channel is every 6 minutes, so please make your time more than 360,000 milliseconds."
     );
   }
   setInterval(() => {
