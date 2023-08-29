@@ -295,6 +295,6 @@ client.login(config.botToken);
 
 /*
 ❓ Don't forget to filled out config.json file by your information and check the README.md file
-All of the methods have been carefully tested
+All of the methods have been carefully tested and without any bugs
 But if you have any issues while using this source, feel free to contact me thorough my social media which is @Masihdeveloper
 */
