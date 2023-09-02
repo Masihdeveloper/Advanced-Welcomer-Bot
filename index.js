@@ -161,9 +161,9 @@ client.on("guildMemberAdd", async (member) => {
         components: [welcomeRow],
       })
       // Delete the welcome messages after 1.5 minutes
-      .then((Welcome) => {
+      .then((welcome) => {
         setTimeout(function () {
-          Welcome.delete();
+          welcome.delete();
         }, 90000);
       });
     // Auto joined role (Only for Real human users)
