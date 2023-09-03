@@ -1,7 +1,7 @@
 {
   "botToken": "YOUR BOT TOKEN",
   "botStatus": "YOUR BOT STATUS, Must be replaced to online, idle, dnd or invisible",
-  "botActivityName": "YOUR BOT ACTIVITY NAME",
+  "botActivityName": "YOUR BOT ACTIVITY NAME, Example: Welcome Bot",
   "memberCountChannelId": "ENTER THE CHANNEL ID FOR SHOW YOUR SERVER MEMBER COUNT",
   "welcomeChannelId": "YOUR WELCOME CHANNEL ID (Only Numbers)",
   "welcomeLogChannelId": "YOUR WELCOME LOG CHANNEL ID (Only Numbers)",
@@ -12,7 +12,7 @@
     "url": "YOUR WELCOMER BUTTON URL (Must be only URL and contain: http or https)"
   },
   "pingOnJoinChannelId": "YOUR PING ON JOIN CHANNEL ID (Mention your member to this channel while join)",
-  "dmWelcomerDescription": "YOUR DM WELCOMER EMBED DESCRIPTION (Less than 4096 characters)",
+  "dmWelcomerDescription": "YOUR DM WELCOMER EMBED DESCRIPTION (Less than 4096 characters and use \n for go new line)",
   "dmWelcomerLinkButtons": {
     "first": {
       "label": "FIRST DM WELCOMER BUTTON LABEL (Less than 80 characters)",
