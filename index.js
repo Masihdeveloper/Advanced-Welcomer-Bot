@@ -269,7 +269,7 @@ client.on("ready", async () => {
     activities: [
       {
         name: config.botActivityName || "No Data was filled out",
-        type: ActivityType.Watching, // You change Watching to: Playing, Listening and Competing
+        type: ActivityType.Watching, // You change Watching to: Playing, Listening or Competing
       },
     ],
   });
