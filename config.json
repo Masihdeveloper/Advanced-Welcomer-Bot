@@ -11,7 +11,7 @@
     "label": "YOUR CHANNEL WELCOMER BUTTON LABEL (Less than 80 characters)",
     "url": "YOUR CHANNEL WELCOMER BUTTON URL (Must be only URL and contain: http or https)"
   },
-  "pingOnJoinChannelId": "YOUR PING ON JOIN CHANNEL ID, Fo mention joined member and delete it after 3s (Only Numbers)",
+  "pingOnJoinChannelId": "YOUR PING ON JOIN CHANNEL ID, For mention joined member and delete it after 3s (Only Numbers)",
   "dmWelcomerDescription": "YOUR DM WELCOMER EMBED DESCRIPTION (Less than 4096 characters and use '\n' for go to the any new line)",
   "dmWelcomerLinkButtons": {
     "first": {
