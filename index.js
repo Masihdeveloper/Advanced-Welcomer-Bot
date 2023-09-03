@@ -260,7 +260,7 @@ client.on("guildMemberAdd", async (member) => {
 // When the client is ready
 client.on("ready", async () => {
   const memberCountVoiceChannel = client.channels.cache.get(
-    config.memberCountChannelId
+    config.displayMemberCountVoiceChannelId
   );
   // Set status and activity for the logged in client
   client.user.setPresence({
