@@ -2,7 +2,7 @@
   "botToken": "YOUR BOT TOKEN",
   "botStatus": "YOUR BOT STATUS, Must be replaced to one of them: online or idle or dnd or invisible",
   "botActivityName": "YOUR BOT ACTIVITY NAME, Example: Welcome Bot",
-  "showMemberCountVoiceChannelId": "ENTER THE CHANNEL ID FOR SHOW YOUR SERVER MEMBER COUNT",
+  "memberCountVoiceChannelId": "ENTER THE CHANNEL ID FOR SHOW YOUR SERVER MEMBER COUNT",
   "welcomeChannelId": "YOUR WELCOME CHANNEL ID (Only Numbers)",
   "welcomeLogChannelId": "YOUR WELCOME LOG CHANNEL ID (Only Numbers)",
   "welcomeRoleId": "YOUR WELCOMER ROLE ID (Only Numbers)",
