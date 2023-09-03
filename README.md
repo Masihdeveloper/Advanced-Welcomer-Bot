@@ -21,7 +21,7 @@ If you are sure that all the information is filled and confirmed, run your file 
 ```
 node index.js
 ```
-so now that your advanced welcomer discord bot will go online and start his exclusive working ...
+so now that your advanced welcomer discord bot will go online and start it's exclusive working ...
 <hr>
 
 # Features (Can fully customized)
