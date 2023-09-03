@@ -1,18 +1,18 @@
 {
-  "botToken": "YOUR BOT TOKEN",
-  "botStatus": "YOUR BOT STATUS, Must be replaced to one of them: online or idle or dnd or invisible",
-  "botActivityName": "YOUR BOT ACTIVITY NAME, Example: Welcome Bot",
-  "displayMemberCountVoiceChannelId": "ENTER THE CHANNEL ID FOR DISPLAY YOUR SERVER MEMBER COUNT",
-  "welcomeChannelId": "YOUR WELCOME CHANNEL ID (Only Numbers)",
-  "welcomeLogChannelId": "YOUR WELCOME LOG CHANNEL ID (Only Numbers)",
-  "welcomeRoleId": "YOUR WELCOMER ROLE ID (Only Numbers)",
-  "welcomeBotRoleId": "YOUR WELCOMER BOT ROLE ID (Only Numbers)",
+  "botToken": "YOUR BOT TOKEN, Get this from Discord developer portal",
+  "botStatus": "YOUR BOT STATUS, Must be replaced to one of them: 'online' or 'idle' or 'dnd' or 'invisible'",
+  "botActivityName": "YOUR BOT ACTIVITY NAME, That display bottom of your status",
+  "displayMemberCountVoiceChannelId": "ENTER THE VOICE CHANNEL ID, For display your total server members count",
+  "welcomeChannelId": "YOUR WELCOME CHANNEL ID, For send a welcome message and delete it after 90s (Only Numbers)",
+  "welcomeLogChannelId": "YOUR WELCOME LOG CHANNEL ID, For send some info about this member (Only Numbers)",
+  "welcomeRoleId": "YOUR WELCOMER ROLE ID, Assign to the human's member (Only Numbers)",
+  "welcomeBotRoleId": "YOUR WELCOMER BOT ROLE ID, Assign to the bot's user (Only Numbers)",
   "welcomeChannelLinkButton": {
-    "label": "YOUR WELCOMER BUTTON LABEL (Less than 80 characters)",
-    "url": "YOUR WELCOMER BUTTON URL (Must be only URL and contain: http or https)"
+    "label": "YOUR CHANNEL WELCOMER BUTTON LABEL (Less than 80 characters)",
+    "url": "YOUR CHANNEL WELCOMER BUTTON URL (Must be only URL and contain: http or https)"
   },
-  "pingOnJoinChannelId": "YOUR PING ON JOIN CHANNEL ID (Mention your member to this channel while join)",
-  "dmWelcomerDescription": "YOUR DM WELCOMER EMBED DESCRIPTION (Less than 4096 characters and use \n for go to the any new line)",
+  "pingOnJoinChannelId": "YOUR PING ON JOIN CHANNEL ID, Fo mention joined member and delete it after 3s (Only Numbers)",
+  "dmWelcomerDescription": "YOUR DM WELCOMER EMBED DESCRIPTION (Less than 4096 characters and use '\n' for go to the any new line)",
   "dmWelcomerLinkButtons": {
     "first": {
       "label": "FIRST DM WELCOMER BUTTON LABEL (Less than 80 characters)",
