@@ -14,7 +14,7 @@ npm discord.js
 # Step 3
 Make sure to Fill out the `config.json` file by your infomarion and according to the information that stated in their description
 For exmaple all of the `"url"` only accepts links that include `https` and `http` and **don't leave anyting blank or omitted**
-- Also you can change your bot's Activity Type in `index.js` file in line: 232
+- Also you can change your bot's Activity Type in `index.js` file in line: 272 (Default is: `Watching`)
 
 # Step 4
 If you are sure that all the information is filled and confirmed, run your file by enter this command in your console:
