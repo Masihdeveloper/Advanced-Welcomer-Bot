@@ -184,7 +184,7 @@ client.on("guildMemberAdd", async (member) => {
   // If the welcome channel log is not found, all of the remaining action are return
   if (!welcomeLogChannel) {
     return console.log(
-      "I can't find the welcome channel log, Please make sure set the welcomeChannelId in config.json file"
+      "I can't find the welcome channel log, Please make sure to set the welcomeChannelId in config.json file"
     );
   }
   const welcomeLogEmbed = new EmbedBuilder()
