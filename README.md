@@ -28,13 +28,15 @@ so now that your advanced welcomer discord bot will go online and start it's exc
 
 DM Welcomer with 4 link buttons and create a server invite link
 
-![DM Welcomer](https://github.com/Masihdeveloper/Advanced-Welcomer-Bot/assets/100484009/54fe31e0-137e-4f90-9be4-78b1fde2e654)
+![DM Welcomer](https://github.com/Masihdeveloper/Advanced-Welcomer-Bot/assets/100484009/ffec9b5e-7840-42f3-ac5b-d4ef7f43e731)
+
 
 #
 Welcoming to the NEW members in the specific channel and delete it after 90s
 
-![Welcoming to the NEW members in the specific channel](https://cdn.discordapp.com/attachments/970232277437124659/1144625457917071381/Screenshot_2023-08-21_222856.png) 
+![Welcome to members in server](https://github.com/Masihdeveloper/Advanced-Welcomer-Bot/assets/100484009/3f785634-68f5-46e2-932d-8035a13f47f7)
 #
+
 Add a Different Role to the Humans and Bots
 
 
