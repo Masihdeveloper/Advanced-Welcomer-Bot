@@ -59,7 +59,8 @@ Set Your Server Member count to a Voice Channel (Refresh every 15 minutes)
 #
 Welcomer Log System
 
-![Log](https://github.com/Masihdeveloper/Advanced-Welcomer-Bot/assets/100484009/9864871d-37ed-4779-a99d-a14d686648d7)
+![Log](https://github.com/Masihdeveloper/Advanced-Welcomer-Bot/assets/100484009/eca6163e-f183-4344-9501-705895837ddf)
+
 
 
 with Ping on Join (Mention your member to a text channel when joined and delete it after 3 seconds)
