@@ -32,7 +32,7 @@ DM Welcomer with 4 link buttons and create a server invite link
 #
 Welcoming to the NEW members in the specific channel and delete it after 90s
 
-![Welcoming to the NEW members in the specific channel](https://imgur.com/A9rYCG1) 
+[Welcoming to the NEW members in the specific channel](https://imgur.com/A9rYCG1) 
 #
 Add a Different Role to the Humans and Bots
 
