@@ -4,7 +4,7 @@ Hope you Enjoy, Made with 🤍 by Masih#0258
 Github: https://github.com/Masihdeveloper | Please Don't forget to ⭐
 Website: https://masihdev.ir/
 Features: Exclusive Joined role for human and bot users, DM Welcomer with Embed, Buttons and the Server Invite Link, Welcoming to the NEW members in the specific channel, Ping on Join, Log System for this Information, Set the current Server Member Count to a Voice channel's Name and more...
-Copyright Masih 2023 All Right Reserved
+Copyright Masih 2023 All Right Reserved!
 */
 
 const {
