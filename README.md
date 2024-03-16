@@ -70,7 +70,7 @@ with Ping on Join (Mention your member to a text channel when joined and delete 
 - Made with 🤍 by [Masih#0258](https://discord.com/users/901765485341859911
 )
 
-- You can check our [Previous Repository README.md](https://github.com/Masihdeveloper/Creating-Discord-Bot/edit/main/README.md) for get more basic information on how to get started as well.
+> You can check our [Previous Repository README.md](https://github.com/Masihdeveloper/Creating-Discord-Bot/edit/main/README.md) for get more basic information on how to get started as well.
 
 - Copyright (c): Masih 2023/01/13, All right reserved!
 
