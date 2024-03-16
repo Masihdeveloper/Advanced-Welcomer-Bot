@@ -72,5 +72,5 @@ with Ping on Join (Mention your member to a text channel when joined and delete 
 
 - Also you can check our [Previous Repository README.md](https://github.com/Masihdeveloper/Creating-Discord-Bot/edit/main/README.md) for get more basic information on how to get started!
 
-- Copyright (c): Masih 2023/01/13
+- Copyright (c): Masih 2023/01/13, All right reserved
 
