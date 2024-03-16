@@ -30,7 +30,6 @@ DM Welcomer with 4 link buttons and create a server invite link
 
 ![DM Welcomer](https://github.com/Masihdeveloper/Advanced-Welcomer-Bot/assets/100484009/ffec9b5e-7840-42f3-ac5b-d4ef7f43e731)
 
-
 #
 Welcoming to the NEW members in the specific channel and delete it after 90s
 
@@ -42,20 +41,24 @@ Add a Different Role to the Humans and Bots
 
 **Humans:**
 
-![Humans](https://cdn.discordapp.com/attachments/970232277437124659/1144625458466537492/Screenshot_2023-08-21_222559.png)
+![Humans](https://github.com/Masihdeveloper/Advanced-Welcomer-Bot/assets/100484009/7e51397b-9fc4-40db-b901-bdc8d859da5d)
+
 
 #
 **Bots:**
 
-![Bots](https://cdn.discordapp.com/attachments/970232277437124659/1144625458688823446/Screenshot_2023-08-21_224700.png)
+![Bots](https://github.com/Masihdeveloper/Advanced-Welcomer-Bot/assets/100484009/cad9801c-722a-41fd-a137-592016e9486c)
+
 #
 Set Your Server Member count to a Voice Channel (Refresh every 15 minutes)
 
-![Sever Stats](https://cdn.discordapp.com/attachments/970232277437124659/1144625458193903757/Screenshot_2023-08-21_223230.png)
+![Sever Stats](https://github.com/Masihdeveloper/Advanced-Welcomer-Bot/assets/100484009/f075e2f4-9c07-41e1-af98-a527975ee893)
+
 #
 Welcomer Log System
 
-![Log](https://cdn.discordapp.com/attachments/970232277437124659/1144625567883350189/Screenshot_2023-08-21_222734.png)
+![Log](https://github.com/Masihdeveloper/Advanced-Welcomer-Bot/assets/100484009/9864871d-37ed-4779-a99d-a14d686648d7)
+
 
 with Ping on Join (Mention your member to a text channel when joined and delete it after 3 seconds)
 # 
