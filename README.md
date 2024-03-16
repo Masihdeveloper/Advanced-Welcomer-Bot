@@ -1,18 +1,18 @@
 # Advanced Discord Welcomer Bot <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 
 # Step 1
-If you use Visual Studio Code and etc, Don't forget to install node.js app (required +v16.9) on your computer then you will be able to enter this comamnd in your console
+If you use Visual Studio Code and etc, Don't forget to install node.js app (required +v16.9) on your computer then you will be able to enter this comamnd in your console:
 ```
 npm init -y
 ```
 for create package.json file (If you use replit you easily can skip this step)
 # Step 2
-Only need to Install `discord.js` v14 library by enter this command on your console.
+Only need to Install `discord.js` v14 library by enter this command on your console:
 ```
 npm discord.js
 ```
 # Step 3
-Make sure to Fill out the `config.json` file by your infomarion and according to the information that stated in their description
+Make sure to fill out the `config.json` file by your infomarion and according to the information that stated in their description
 For exmaple all of the `"url"` only accepts links that include `https` and `http` and **don't leave anyting blank or omitted**
 - Also you can change your bot's Activity Type with this [official docs](https://discord-api-types.dev/api/discord-api-types-v10/enum/ActivityType) in the `index.js` file in line: [272](https://github.com/Masihdeveloper/Advanced-Welcomer-Bot/blob/main/index.js#L272) | Default is: `Watching`
 
