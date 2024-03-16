@@ -47,7 +47,8 @@ Add a Different Role to the Humans and Bots
 #
 **Bots:**
 
-![Bots](https://github.com/Masihdeveloper/Advanced-Welcomer-Bot/assets/100484009/cad9801c-722a-41fd-a137-592016e9486c)
+![Bots](https://github.com/Masihdeveloper/Advanced-Welcomer-Bot/assets/100484009/7d6f6daf-1cb4-4b0a-aae2-57e2a1cefd39)
+
 
 #
 Set Your Server Member count to a Voice Channel (Refresh every 15 minutes)
