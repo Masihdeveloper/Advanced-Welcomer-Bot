@@ -47,7 +47,8 @@ Add a Different Role to the Humans and Bots
 #
 **Bots:**
 
-![Bots](https://github.com/Masihdeveloper/Advanced-Welcomer-Bot/assets/100484009/7d6f6daf-1cb4-4b0a-aae2-57e2a1cefd39)
+![Bots](https://github.com/Masihdeveloper/Advanced-Welcomer-Bot/assets/100484009/095ddf03-f9ce-4d86-b7e2-52f15998ba9e)
+
 
 
 #
