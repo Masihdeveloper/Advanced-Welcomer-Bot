@@ -1,13 +1,13 @@
 # Advanced Discord Welcomer Bot <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 
 # Step 1
-If you use Visual Studio Code and etc, Don't forget to install node.js app (required +v16.9) on your computer then you will be able to enter this comamnd in your console:
+If you use Visual Studio Code and etc, Don't forget to install [node.js](https://nodejs.org/en/download) app (required +v16.9) on your computer then you will be able to enter this comamnd in your console:
 ```
 npm init -y
 ```
 for create package.json file (If you use replit you easily can skip this step)
 # Step 2
-Only need to Install `discord.js` v14 library by enter this command on your console:
+Only need to Install [`discord.js`](https://www.npmjs.com/package/discord.js) v14 library by enter this command in your console:
 ```
 npm discord.js
 ```
@@ -22,9 +22,9 @@ If you are sure that all the information is filled and confirmed, run your file 
 node index.js
 ```
 so now that your advanced welcomer discord bot will go online and start it's exclusive working...
-<hr>
+#
 
-# Features (Can fully customized)
+# 🌟 Features (Can fully customized)
 
 DM Welcomer with 4 link buttons and create a server invite link
 
