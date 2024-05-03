@@ -1,7 +1,7 @@
 # Advanced Discord Welcomer Bot <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 
 # Step 1
-Don't forget to install [node.js](https://nodejs.org/en/download) app (required +v16.9) on your computer then you will be able to enter this comamnd in your console:
+If you use Visual Studio Code and etc, Don't forget to install [node.js](https://nodejs.org/en/download) app (required +v16.9) on your computer then you will be able to enter this comamnd in your console:
 ```
 npm init -y
 ```
