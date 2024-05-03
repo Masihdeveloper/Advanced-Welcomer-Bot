@@ -26,17 +26,17 @@ so now that your advanced welcomer discord bot will go online and start it's exc
 
 # Features (Can fully customized)
 
-1. DM Welcomer with 4 link buttons and create a server invite link
+DM Welcomer with 4 link buttons and create a server invite link
 
 ![DM Welcomer](https://github.com/Masihdeveloper/Advanced-Welcomer-Bot/assets/100484009/ffec9b5e-7840-42f3-ac5b-d4ef7f43e731)
 
 #
-2. Welcoming to the NEW members in the specific channel and delete it after 90s
+Welcoming to the NEW members in the specific channel and delete it after 90s
 
 ![Welcome to members in server](https://github.com/Masihdeveloper/Advanced-Welcomer-Bot/assets/100484009/3f785634-68f5-46e2-932d-8035a13f47f7)
 #
 
-3. Add a Different Role to the Humans and Bots
+Add a Different Role to the Humans and Bots
 
 
 **Humans:**
@@ -52,18 +52,17 @@ so now that your advanced welcomer discord bot will go online and start it's exc
 
 
 #
-4. Set Your Server Member count to a Voice Channel (Refresh every 15 minutes)
+Set Your Server Member count to a Voice Channel (Refresh every 15 minutes)
 
 ![Sever Stats](https://github.com/Masihdeveloper/Advanced-Welcomer-Bot/assets/100484009/f075e2f4-9c07-41e1-af98-a527975ee893)
 
 #
-5. Welcomer Log System
+Welcomer Log System
 
 ![Log](https://github.com/Masihdeveloper/Advanced-Welcomer-Bot/assets/100484009/eca6163e-f183-4344-9501-705895837ddf)
 
 
-
-6 . Ping on Join (Mention your member to a text channel when joined and delete it after 3 seconds)
+with Ping on Join (Mention your member to a text channel when joined and delete it after 3 seconds)
 # 
 
 - Please Don't forget to star ⭐ the repository.
