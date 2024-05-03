@@ -22,7 +22,7 @@ If you are sure that all the information is filled and confirmed, run your file 
 node index.js
 ```
 so now that your advanced welcomer discord bot will go online and start it's exclusive working...
-#
+<hr>
 # Features (Can fully customized)
 
 DM Welcomer with 4 link buttons and create a server invite link
