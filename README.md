@@ -26,12 +26,12 @@ so now that your advanced welcomer discord bot will go online and start it's exc
 
 # Features (Can fully customized)
 
-DM Welcomer with 4 link buttons and create a server invite link
+DM Welcomer with 4 link buttons and create a server invite link.
 
 ![DM Welcomer](https://github.com/Masihdeveloper/Advanced-Welcomer-Bot/assets/100484009/ffec9b5e-7840-42f3-ac5b-d4ef7f43e731)
 
 #
-Welcoming to the NEW members in the specific channel and delete it after 90s
+Welcoming to the NEW members in the specific channel and delete it after 90 seconds.
 
 ![Welcome to members in server](https://github.com/Masihdeveloper/Advanced-Welcomer-Bot/assets/100484009/3f785634-68f5-46e2-932d-8035a13f47f7)
 #
