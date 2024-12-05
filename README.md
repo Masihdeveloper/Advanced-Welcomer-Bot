@@ -9,7 +9,7 @@ for create package.json file (If you use replit you easily can skip this step)
 # Step 2
 Only need to Install [`discord.js`](https://www.npmjs.com/package/discord.js) v14 library by enter this command in your console:
 ```
-npm discord.js
+npm i discord.js
 ```
 # Step 3
 Make sure to fill out the `config.json` file by your infomarion and according to the information that stated in their description
